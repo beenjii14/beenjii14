@@ -1,4 +1,6 @@
-<img src="assets/banner.svg" alt="Benjamin Cruz, Full Stack Engineer. I build things and the tools around them." width="100%">
+<p align="center">
+  <img src="assets/hero.svg" alt="Benjamin Cruz, Full Stack Engineer. I build things and the tools around them." width="100%">
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/benjamin-cruz-manuel-02443a14b"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Benjamin%20Cruz-0f766e?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -6,32 +8,48 @@
   <a href="https://beenjii14.github.io/sprout/"><img alt="sprout" src="https://img.shields.io/badge/Project-sprout-14b8a6?style=for-the-badge&logo=gnubash&logoColor=white"></a>
 </p>
 
-## 👋 Hi, I'm Benjamin
+<p align="center">
+  <b>Clean architecture</b> · <b>developer experience</b> · <b>automating the boring parts</b><br>
+  Lately I turn my own daily annoyances into small open source tools. 🌱
+</p>
 
-Full Stack Engineer from Mexico. I like clean architecture, good developer experience and automating the boring parts of the job.
-Lately I am turning my own daily annoyances into small open source tools.
+<br>
 
-## 🌱 Featured project
+## 🌱 Featured project: sprout
 
-### [sprout](https://github.com/beenjii14/sprout)
+<p align="center">
+  <a href="https://beenjii14.github.io/sprout/"><img src="assets/sprout-demo.svg" alt="Terminal demo: sprout PROJ-142 reads the Jira ticket and creates the branch PROJ-142/feat-sso-login-okta-admin" width="760"></a>
+</p>
 
-**Git branches from Jira tickets, in one command.** Run `sprout PROJ-142` and get `PROJ-142/feat-sso-login-okta-admin`:
-it reads the ticket, shortens the title with the AI CLI you already have (Claude, Gemini, Codex, Copilot, Cursor or any command)
-and creates the branch.
+**Git branches from Jira tickets, in one command.** It reads the ticket, shortens the title with the AI CLI you already
+have (Claude, Gemini, Codex, Copilot, Cursor or any command) and creates the branch.
 
-[![Release](https://img.shields.io/github/v/release/beenjii14/sprout?style=flat-square&color=0f766e)](https://github.com/beenjii14/sprout/releases)
-[![Stars](https://img.shields.io/github/stars/beenjii14/sprout?style=flat-square&color=14b8a6)](https://github.com/beenjii14/sprout/stargazers)
-[![License](https://img.shields.io/github/license/beenjii14/sprout?style=flat-square&color=64748b)](https://github.com/beenjii14/sprout/blob/main/LICENSE)
+<p align="center">
+  <a href="https://github.com/beenjii14/sprout/releases"><img alt="Release" src="https://img.shields.io/github/v/release/beenjii14/sprout?style=flat-square&color=0f766e"></a>
+  <a href="https://github.com/beenjii14/sprout/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/beenjii14/sprout?style=flat-square&color=14b8a6"></a>
+  <a href="https://github.com/beenjii14/sprout/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/beenjii14/sprout?style=flat-square&color=64748b"></a>
+  <a href="https://github.com/beenjii14/sprout/actions"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/beenjii14/sprout/ci.yml?branch=main&style=flat-square&label=CI"></a>
+</p>
 
 ```sh
-brew tap beenjii14/tap
-brew trust beenjii14/tap
-brew install sprout
+brew tap beenjii14/tap && brew trust beenjii14/tap && brew install sprout
 ```
 
-[Website](https://beenjii14.github.io/sprout/) · [Docs](https://github.com/beenjii14/sprout#readme) · [Report an issue](https://github.com/beenjii14/sprout/issues)
+<p align="center">
+  <a href="https://beenjii14.github.io/sprout/">🌐 Website</a> &nbsp;·&nbsp;
+  <a href="https://github.com/beenjii14/sprout#readme">📖 Docs</a> &nbsp;·&nbsp;
+  <a href="https://github.com/beenjii14/sprout/issues">🐛 Issues</a> &nbsp;·&nbsp;
+  <a href="https://github.com/beenjii14/sprout/blob/main/CONTRIBUTING.md">🤝 Contribute</a>
+</p>
 
-## 🧰 Tech I work with
+<br>
+
+## 🧭 Explore
+
+<details open>
+<summary><b>🧰 Tech I work with</b></summary>
+
+<br>
 
 **Frontend** &nbsp;
 ![React](https://img.shields.io/badge/-React-0b1220?style=flat-square&logo=react&logoColor=61DAFB)
@@ -63,7 +81,12 @@ brew install sprout
 ![Jira](https://img.shields.io/badge/-Jira-0b1220?style=flat-square&logo=jira&logoColor=0052CC)
 ![Linux](https://img.shields.io/badge/-Linux-0b1220?style=flat-square&logo=linux&logoColor=FCC624)
 
-## 📦 More from my workbench
+</details>
+
+<details>
+<summary><b>📦 More from my workbench</b></summary>
+
+<br>
 
 | Project | What it is |
 | --- | --- |
@@ -73,9 +96,27 @@ brew install sprout
 | [**nextjs-template**](https://github.com/beenjii14/nextjs-template) | Next.js project with sensible defaults |
 | [**code-solid**](https://github.com/beenjii14/code-solid) | Notes on clean code and SOLID principles |
 
-## 🤝 Let's talk
+</details>
+
+<details>
+<summary><b>💬 Let's talk</b></summary>
+
+<br>
 
 I am happy to chat about developer tooling, backend architecture and open source. If something in
 [sprout](https://github.com/beenjii14/sprout) can be better, issues and pull requests are very welcome.
 
-<sub>🌱 Built with care, one small tool at a time.</sub>
+[LinkedIn](https://www.linkedin.com/in/benjamin-cruz-manuel-02443a14b) · [X](https://x.com/beenjii14)
+
+</details>
+
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beenjii14/beenjii14/output/github-contribution-grid-snake-dark.svg">
+    <img alt="Contribution graph with a snake eating the commits" src="https://raw.githubusercontent.com/beenjii14/beenjii14/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>🌱 Built with care, one small tool at a time.</sub></p>

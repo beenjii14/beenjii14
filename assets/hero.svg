@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" role="img" aria-labelledby="t d">
+  <title id="t">Benjamin Cruz</title>
+  <desc id="d">Animated banner: a sprout grows next to a terminal that types who Benjamin Cruz is and what he builds.</desc>
+  <style>
+    text{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+    .sans{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif}
+    @keyframes grow{0%{transform:scale(0)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
+    @keyframes sway{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2.5deg)}}
+    @keyframes leafL{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}
+    @keyframes leafR{0%,100%{transform:rotate(0)}50%{transform:rotate(5deg)}}
+    @keyframes draw{0%{stroke-dashoffset:var(--len)}40%,100%{stroke-dashoffset:0}}
+    @keyframes pulse{0%,100%{opacity:.28;r:9px}50%{opacity:.8;r:12px}}
+    @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes fadein{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+    .grow{transform-origin:0 0;animation:grow 2.2s cubic-bezier(.2,.9,.3,1.2) both}
+    .sway{transform-origin:0 0;animation:sway 5s ease-in-out 2.2s infinite}
+    .lL{transform-origin:0 -50px;animation:leafL 4s ease-in-out 2.2s infinite}
+    .lR{transform-origin:0 -73px;animation:leafR 4s ease-in-out 2.4s infinite}
+    .branch{stroke-dasharray:var(--len);animation:draw 6s ease-out infinite}
+    .dot{animation:pulse 3s ease-in-out infinite}
+    .p1{animation:drift 7s ease-in-out infinite} .p2{animation:drift 9s ease-in-out 1s infinite} .p3{animation:drift 8s ease-in-out 2s infinite}
+    .name{animation:fadein 1.2s ease-out .4s both} .tag{animation:fadein 1.2s ease-out .9s both}
+    @keyframes ty0{0%,1.00%{width:0}14.00%,30.67%{width:672px}30.68%,100%{width:0}}.c0{animation:ty0 15.0s infinite;animation-timing-function:steps(48,end)} @keyframes cr0{0%,1.00%{transform:translateX(0)}14.00%,30.67%{transform:translateX(672px)}30.68%,100%{transform:translateX(0)}}.k0{animation:cr0 15.0s infinite;animation-timing-function:steps(48,end)} @keyframes sh0{0%,0.00%{opacity:0}1.00%,30.67%{opacity:1}30.68%,100%{opacity:0}}.s0{animation:sh0 15.0s infinite} @keyframes ty1{0%,34.33%{width:0}47.33%,64.00%{width:784px}64.01%,100%{width:0}}.c1{animation:ty1 15.0s infinite;animation-timing-function:steps(56,end)} @keyframes cr1{0%,34.33%{transform:translateX(0)}47.33%,64.00%{transform:translateX(784px)}64.01%,100%{transform:translateX(0)}}.k1{animation:cr1 15.0s infinite;animation-timing-function:steps(56,end)} @keyframes sh1{0%,33.32%{opacity:0}34.33%,64.00%{opacity:1}64.01%,100%{opacity:0}}.s1{animation:sh1 15.0s infinite} @keyframes ty2{0%,67.67%{width:0}80.67%,97.33%{width:672px}97.34%,100%{width:0}}.c2{animation:ty2 15.0s infinite;animation-timing-function:steps(48,end)} @keyframes cr2{0%,67.67%{transform:translateX(0)}80.67%,97.33%{transform:translateX(672px)}97.34%,100%{transform:translateX(0)}}.k2{animation:cr2 15.0s infinite;animation-timing-function:steps(48,end)} @keyframes sh2{0%,66.66%{opacity:0}67.67%,97.33%{opacity:1}97.34%,100%{opacity:0}}.s2{animation:sh2 15.0s infinite}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.c0,.c1,.c2{width:0!important}.s0{opacity:1!important}.c0{width:499px!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#042f2e"/><stop offset=".55" stop-color="#0b5d56"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <radialGradient id="glow" cx=".15" cy=".45" r=".6"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".4"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="380" rx="20" fill="url(#bg)"/><rect width="1280" height="380" rx="20" fill="url(#glow)"/>
+  <g class="p1" fill="#99f6e4" fill-opacity=".35"><circle cx="620" cy="60" r="3"/><circle cx="780" cy="330" r="2.5"/></g>
+  <g class="p2" fill="#99f6e4" fill-opacity=".3"><circle cx="880" cy="40" r="2.5"/><circle cx="500" cy="340" r="3"/></g>
+  <g class="p3" fill="#ffffff" fill-opacity=".25"><circle cx="1180" cy="30" r="2"/><circle cx="700" cy="350" r="2"/></g>
+  <g transform="translate(110 0)" stroke="#ffffff" stroke-opacity=".2" stroke-width="5" fill="none" stroke-linecap="round">
+    <path class="branch" style="--len:320px" d="M900 30 V350"/>
+    <path class="branch" style="--len:260px;animation-delay:.4s" d="M900 110 C900 160 1010 140 1010 200 V350"/>
+    <path class="branch" style="--len:180px;animation-delay:.8s" d="M1010 245 C1010 290 1120 270 1120 320 V350"/>
+  </g>
+  <g transform="translate(110 0)" fill="#ffffff">
+    <circle class="dot" cx="900" cy="55" r="10"/><circle class="dot" style="animation-delay:.5s" cx="900" cy="110" r="10"/>
+    <circle class="dot" style="animation-delay:1s" cx="1010" cy="200" r="10"/><circle class="dot" style="animation-delay:1.5s" cx="1010" cy="245" r="10"/>
+    <circle class="dot" style="animation-delay:2s" cx="1120" cy="320" r="10"/>
+  </g>
+  <g transform="translate(150 300)"><g class="grow"><g class="sway" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0 V-92" stroke="#99f6e4" stroke-width="10"/>
+    <g class="lL"><path d="M0 -58 C-44 -60 -66 -92 -62 -122 C-24 -118 0 -92 0 -58 Z" fill="#5eead4" stroke="#5eead4" stroke-width="4"/></g>
+    <g class="lR"><path d="M0 -84 C42 -92 74 -120 72 -156 C30 -152 0 -122 0 -84 Z" fill="#ccfbf1" stroke="#ccfbf1" stroke-width="4"/></g>
+    <path d="M-34 0 H34" stroke="#99f6e4" stroke-width="10"/></g></g></g>
+  <g class="sans">
+    <text class="name sans" x="270" y="130" font-size="92" font-weight="800" fill="#ffffff" letter-spacing="-3" style="font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif">Benjamin Cruz</text>
+    <text class="tag sans" x="274" y="182" font-size="32" font-weight="500" fill="#99f6e4" style="font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif">Full Stack Engineer · I build things and the tools around them</text>
+  </g>
+  <rect x="270" y="222" width="780" height="68" rx="14" fill="#021a19" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".18"/>
+  <g transform="translate(296 265)"><g class="s0"><clipPath id="cp0"><rect class="c0" x="0" y="-26" width="0" height="36"/></clipPath>
+      <text clip-path="url(#cp0)" font-size="24" fill="#e6fffb"><tspan fill="#5eead4">$</tspan> whoami  <tspan fill="#5eead4">→</tspan>  <tspan fill="#fde68a">Benjamin Cruz · Full Stack Engineer</tspan></text>
+      <rect class="k0" x="0" y="-22" width="12" height="28" fill="#99f6e4" opacity=".9"/></g><g class="s1"><clipPath id="cp1"><rect class="c1" x="0" y="-26" width="0" height="36"/></clipPath>
+      <text clip-path="url(#cp1)" font-size="24" fill="#e6fffb"><tspan fill="#5eead4">$</tspan> sprout PROJ-142  <tspan fill="#5eead4">→</tspan>  <tspan fill="#fde68a">PROJ-142/feat-sso-login-okta-admin</tspan></text>
+      <rect class="k1" x="0" y="-22" width="12" height="28" fill="#99f6e4" opacity=".9"/></g><g class="s2"><clipPath id="cp2"><rect class="c2" x="0" y="-26" width="0" height="36"/></clipPath>
+      <text clip-path="url(#cp2)" font-size="24" fill="#e6fffb"><tspan fill="#5eead4">$</tspan> build --things  <tspan fill="#5eead4">→</tspan>  <tspan fill="#fde68a">--and-the-tools-around-them</tspan></text>
+      <rect class="k2" x="0" y="-22" width="12" height="28" fill="#99f6e4" opacity=".9"/></g></g>
+</svg>

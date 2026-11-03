@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+  <title id="t">Benjamin Cruz</title>
+  <desc id="d">Benjamin Cruz, Full Stack Engineer. I build things and the tools around them.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#042f2e"/><stop offset=".55" stop-color="#0b5d56"/><stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".15" cy=".4" r=".6">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".35"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="18" fill="url(#glow)"/>
+  <g transform="translate(110 0)" stroke="#ffffff" stroke-opacity=".16" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M900 30 V270"/><path d="M900 90 C900 130 1010 112 1010 160 V270"/><path d="M1010 190 C1010 220 1120 205 1120 240 V270"/>
+  </g>
+  <g transform="translate(110 0)" fill="#ffffff" fill-opacity=".28">
+    <circle cx="900" cy="45" r="10"/><circle cx="900" cy="90" r="10"/><circle cx="1010" cy="160" r="10"/><circle cx="1010" cy="190" r="10"/><circle cx="1120" cy="240" r="10"/>
+  </g>
+  <g transform="translate(140 232)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0 V-80" stroke="#99f6e4" stroke-width="9"/>
+    <path d="M0 -50 C-38 -52 -57 -80 -54 -106 C-21 -102 0 -80 0 -50 Z" fill="#5eead4" stroke="#5eead4" stroke-width="4"/>
+    <path d="M0 -73 C36 -80 64 -104 62 -135 C26 -131 0 -105 0 -73 Z" fill="#ccfbf1" stroke="#ccfbf1" stroke-width="4"/>
+    <path d="M-30 0 H30" stroke="#99f6e4" stroke-width="9"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif">
+    <text x="240" y="140" font-size="82" font-weight="800" fill="#ffffff" letter-spacing="-2">Benjamin Cruz</text>
+    <text x="244" y="196" font-size="32" font-weight="500" fill="#99f6e4">Full Stack Engineer · I build things and the tools around them.</text>
+  </g>
+  <text x="244" y="246" font-size="20" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" fill="#e6fffb"><tspan fill="#5eead4">$</tspan> brew install beenjii14/tap/sprout</text>
+</svg>

@@ -13,11 +13,8 @@ Lately I am turning my own daily annoyances into small open source tools.
 
 ## 🌱 Featured project
 
-<table>
-<tr>
-<td width="76%">
-
 ### [sprout](https://github.com/beenjii14/sprout)
+
 **Git branches from Jira tickets, in one command.** Run `sprout PROJ-142` and get `PROJ-142/feat-sso-login-okta-admin`:
 it reads the ticket, shortens the title with the AI CLI you already have (Claude, Gemini, Codex, Copilot, Cursor or any command)
 and creates the branch.
@@ -27,19 +24,12 @@ and creates the branch.
 [![License](https://img.shields.io/github/license/beenjii14/sprout?style=flat-square&color=64748b)](https://github.com/beenjii14/sprout/blob/main/LICENSE)
 
 ```sh
-brew tap beenjii14/tap && brew trust beenjii14/tap && brew install sprout
+brew tap beenjii14/tap
+brew trust beenjii14/tap
+brew install sprout
 ```
 
 [Website](https://beenjii14.github.io/sprout/) · [Docs](https://github.com/beenjii14/sprout#readme) · [Report an issue](https://github.com/beenjii14/sprout/issues)
-
-</td>
-<td width="24%" align="center">
-
-<a href="https://github.com/beenjii14/sprout"><img src="https://raw.githubusercontent.com/beenjii14/sprout/main/docs/assets/social-preview.png" alt="sprout" width="220"></a>
-
-</td>
-</tr>
-</table>
 
 ## 🧰 Tech I work with
 
